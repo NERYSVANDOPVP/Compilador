@@ -7,7 +7,7 @@
 main()
 {
 	print("\n----------------------------------");
-	print("  Bare Script\n");
+	print(" GM \n");
 	print("----------------------------------\n");
 }
 
@@ -60,7 +60,7 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnGameModeInit()
 {
-	SetGameModeText("Bare Script");
+	SetGameModeText("GM");
 	ShowPlayerMarkers(1);
 	ShowNameTags(1);
 	AllowAdminTeleport(1);
